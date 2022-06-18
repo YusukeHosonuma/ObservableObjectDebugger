@@ -9,11 +9,12 @@ let package = Package(
         .library(name: "ObservableObjectDebugger", targets: ["ObservableObjectDebugger"]),
     ],
     dependencies: [
-        // Dependencies declare other packages that this package depends on.
-        // .package(url: /* package url */, from: "1.0.0"),
+        .package(url: "https://github.com/YusukeHosonuma/SwiftPrettyPrint.git", from: "1.4.0"),
     ],
     targets: [
-        .target(name: "ObservableObjectDebugger", dependencies: []),
+        .target(name: "ObservableObjectDebugger", dependencies: [
+            "SwiftPrettyPrint"
+        ]),
         .testTarget(name: "ObservableObjectDebuggerTests", dependencies: ["ObservableObjectDebugger"]),
     ]
 )
