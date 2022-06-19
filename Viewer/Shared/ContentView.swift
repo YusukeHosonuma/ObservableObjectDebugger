@@ -65,6 +65,8 @@ struct ContentView_Previews: PreviewProvider {
     }
 }
 
+// 🌱 Special Thanks.
+// https://zenn.dev/en3_hcl/articles/34ae63714a4daf
 extension AttributedString {
     func ranges<T: StringProtocol>(of stringToFind: T) -> [Range<AttributedString.Index>] {
         var ranges: [Range<AttributedString.Index>] = []
