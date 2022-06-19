@@ -2,7 +2,7 @@
 //  ExampleApp.swift
 //  Shared
 //
-//  Created by 細沼祐介 on 2022/06/19.
+//  Created by Yusuke Hosonuma on 2022/06/19.
 //
 
 import SwiftUI

@@ -5,6 +5,9 @@ import PackageDescription
 
 let package = Package(
     name: "ObservableObjectDebugger",
+    platforms: [
+        .iOS(.v14),
+    ],
     products: [
         .library(name: "ObservableObjectDebugger", targets: ["ObservableObjectDebugger"]),
     ],
