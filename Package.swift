@@ -12,7 +12,7 @@ let package = Package(
         .library(name: "ObservableObjectDebugger", targets: ["ObservableObjectDebugger"]),
     ],
     dependencies: [
-        .package(url: "https://github.com/YusukeHosonuma/SwiftPrettyPrint.git", from: "1.4.0"),
+        .package(url: "https://github.com/YusukeHosonuma/SwiftPrettyPrint.git", branch: "hotfix-infinity-loop"),
     ],
     targets: [
         .target(name: "ObservableObjectDebugger", dependencies: [
