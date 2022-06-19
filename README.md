@@ -36,9 +36,9 @@ struct ContentView: View {
 
 3. Build and launch the [Viewer app](https://github.com/YusukeHosonuma/ObservableObjectDebugger/tree/main/Viewer/ObservableObjectViewer.xcodeproj) or reference to folder `/tmp/ObservableObjectDebugger` (with VSCode and others).
 
-<img width="975" alt="image" src="https://user-images.githubusercontent.com/2990285/174466347-1c64333b-34f6-4bc5-bcec-ab9f8c4d888a.png">
+<img width="1178" alt="image" src="https://user-images.githubusercontent.com/2990285/174471452-a5955c3d-694f-413e-9860-8fc994c45f48.png">
 
-<img width="1633" alt="image" src="https://user-images.githubusercontent.com/2990285/174466415-3677c27d-127e-4127-895f-75e3ce392cdf.png">
+<img width="1151" alt="image" src="https://user-images.githubusercontent.com/2990285/174471479-2b1969d1-af31-4632-8a88-cfbb7097476d.png">
 
 ## Requirements
 
