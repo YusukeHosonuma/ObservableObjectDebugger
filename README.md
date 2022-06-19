@@ -1,6 +1,6 @@
 # Observable Object Debugger
 
-Watch for `ObservableObject` in real time.
+Watch for `ObservableObject` in real time. (This is the **Alpha** version)
 
 ## Quick Start
 
