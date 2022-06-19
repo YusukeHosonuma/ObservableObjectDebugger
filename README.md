@@ -1,6 +1,6 @@
-# ObservableObjectDebugger
+# Observable Object Debugger
 
-A description of this package.
+Watch for `ObservableObject` in real time.
 
 ## Quick Start
 
@@ -34,5 +34,13 @@ struct ContentView: View {
 }
 ```
 
-3. Build and launch viewer app.
+3. Build and launch the [Viewer app](https://github.com/YusukeHosonuma/ObservableObjectDebugger/tree/main/Viewer/ObservableObjectViewer.xcodeproj).
 
+## Requirements
+
+- iOS 14+
+- macOS 12+ (Viewer app)
+
+## Author
+
+Yusuke Hosonuma / [@tobi462](https://twitter.com/tobi462)
