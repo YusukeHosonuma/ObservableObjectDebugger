@@ -42,7 +42,7 @@ struct ContentView: View {
 
 ## Requirements
 
-- iOS 14+
+- iOS 14+ (**Simulator only**)
 - macOS 12+ (Viewer app)
 
 ## Author
