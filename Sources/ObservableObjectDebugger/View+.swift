@@ -25,7 +25,7 @@ final class ObservableObjectWriter {
 
     func write(filename: String, string: String) {
         do {
-            let path =  directory.path + "/" + filename // TODO: パスは`join`みたいな専用APIで結合したほうがベター
+            let path = directory.path + "/" + filename // TODO: パスは`join`みたいな専用APIで結合したほうがベター
             try string.write(toFile: path, atomically: false, encoding: .utf8)
         } catch {
             logger.error("Failed to write. (\(error.localizedDescription))")

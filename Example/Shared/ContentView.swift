@@ -5,15 +5,15 @@
 //  Created by Yusuke Hosonuma on 2022/06/19.
 //
 
-import SwiftUI
 import ObservableObjectDebugger
+import SwiftUI
 
 enum Flavor: String, CaseIterable, Identifiable {
     case chocolate
     case vanilla
     case strawberry
 
-    var id: String { self.rawValue }
+    var id: String { rawValue }
 }
 
 struct ContentView: View {
@@ -41,7 +41,6 @@ class ContentViewModel: ObservableObject {
     @Published var text: String = ""
     @Published var bool = false
     @Published var selectedFlavor = Flavor.chocolate
-
 }
 
 struct ContentView_Previews: PreviewProvider {

@@ -5,15 +5,15 @@
 //  Created by Yusuke Hosonuma on 2022/06/19.
 //
 
-import SwiftUI
 import SwiftPrettyPrint
+import SwiftUI
 
 private let path: URL = .init(fileURLWithPath: "/tmp/ObservableObjectDebugger")
 private let writer = ObservableObjectWriter(directory: path)
 
 public extension View {
     func debugObserve(name: String? = nil, _ object: Any) -> some View {
-        var output: String = ""
+        var output = ""
 
         Pretty.prettyPrint(object, to: &output)
         output.removeLast()

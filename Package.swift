@@ -16,7 +16,7 @@ let package = Package(
     ],
     targets: [
         .target(name: "ObservableObjectDebugger", dependencies: [
-            "SwiftPrettyPrint"
+            "SwiftPrettyPrint",
         ]),
         .testTarget(name: "ObservableObjectDebuggerTests", dependencies: ["ObservableObjectDebugger"]),
     ]
