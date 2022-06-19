@@ -22,7 +22,7 @@ class FileWatcher: ObservableObject {
 
     func start() async throws {
         while true {
-            try await Task.sleep(milliseconds: 500)
+            try await Task.sleep(milliseconds: 1000)
             reload()
         }
     }
