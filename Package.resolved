@@ -50,8 +50,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/YusukeHosonuma/SwiftPrettyPrint.git",
       "state" : {
-        "branch" : "hotfix-infinity-loop",
-        "revision" : "a72aa8aa657fa803a42ebee8af0604f6b6bb6736"
+        "branch" : "main",
+        "revision" : "5bc86489448197a543c5dd62beb6cbeffb6006fc"
       }
     }
   ],
